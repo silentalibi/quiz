@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Actor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>Guess the Actor</h1>
+    </header>
+    <div class="container">
+        <div class="scoreboard">
+            <p>Coins: <span id="coins">30</span></p>
+            <p>Round: <span id="round">1</span>/10</p>
+        </div>
+        <div class="image-container">
+            <img id="image1" src="" alt="Option 1">
+            <img id="image2" src="" alt="Option 2">
+        </div>
+        <div class="actions">
+            <button onclick="makeBet(3)">Bet 3 Coins</button>
+            <button onclick="upres()">Upres</button>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
+    
